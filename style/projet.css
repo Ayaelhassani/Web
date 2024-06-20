@@ -1,0 +1,203 @@
+
+.heading{color: white; position:absolute; top:380px; font-size: 220%;}
+.body{ background-image: url(../image/backgr.jpg);
+	width: -600px;
+
+
+	
+}
+.a{top:40%;
+	margin-left: 25%
+
+}
+#time 
+	{
+	text-align: center;
+	float: right;
+	width: 210px;
+	height: 68px;
+	font-size: 28px;
+	color: black;
+	
+	
+	}	
+nav.menu-nav ul li.cle a{
+	color:black;
+	text-decoration: none;
+	background-color:#D82121;
+	float: left;
+	left:0;
+	padding: 15px;
+	border:solid,#D82121 ;
+	border-radius: 30px;
+}
+nav.menu-nav ul li.cle{
+	list-style-type: none;
+	display: inline-block;
+}
+nav.menu-nav ul li.cle:hover a{
+	color:red;
+	background: white;
+	transition: 0.5s all;
+	font-size: 30px;
+}
+
+.aya{
+	width: 100%;
+	height: 600px;
+margin-top: 20px;
+
+}
+
+
+
+.css{
+font-family: fantasy;
+font-size: 30px;
+
+}
+.insta{
+	width: 2%;
+	margin-left: 70%;
+	position:absolute;
+	top: 28px;
+	left: 60px;
+	border-radius: 30px;
+}
+
+.html{
+font-family: fantasy;
+font-size: 75px;
+line-height: 0%;
+
+
+}
+.titre{
+	color: #A9A9A9;
+	margin-left: 45%;
+	text-decoration: underline;
+	
+}
+.im{
+	width: 23%;
+	margin-left: 10%;
+}
+.book{
+	margin-left: 40%;
+    bottom: 50px;
+
+}
+.fb{
+	width: 2.5%;
+	margin-left: 70%;
+	position:absolute;
+	top: 25px;
+	left: 5px;
+    border-radius: 30px;
+
+}
+.tw{
+	width: 2%;
+	margin-left: 70%;
+	position:absolute;
+	top: 28px;
+	left: 110px;
+	border-radius: 30px;
+
+}
+.o{
+	padding-bottom: 50%;
+}
+
+
+
+.b{ width:55%;
+	height: 200%;
+	float: right;
+	margin-top: -450px;
+	margin-left: -4500px;
+
+}
+.vita{width:28%;
+	height: 200%;
+	float: right;
+	margin-top: -450px;
+	margin-left: -4500px;
+	padding-bottom: 50%;
+
+
+}
+.BIO{
+	margin-left: 50%;
+}
+.text{
+	position: absolute;
+	top: 135%;
+	left: 70%;
+	border: 2px solid #000000;
+	transform: translate(-50%,-50%);
+	width: 600px;
+	padding: 30px;
+	background: #fff;
+	box-sizing: border-box;
+	border-radius: 50px;
+	box-shadow: 2 150px 500px rgba(0,0,0,-2);
+}
+
+.famille{position: absolute;
+	top: 260%;
+	left: 70%;
+	border: 2px solid #000000;
+	transform: translate(-50%,-50%);
+	width: 600px;
+	background: #fff;
+	box-sizing: border-box;
+	border-radius: 50px;
+	box-shadow: 2 150px 500px rgba(0,0,0,-2);
+	padding: 2%;
+
+
+}
+.BIO{
+	text-decoration: underline;
+	left: 30%;
+}
+.vid{
+	width: 100%;
+	bottom: 20%;
+	
+	
+}
+.f{ 
+margin-left: 35%; 
+color:#F08080;
+text-decoration: underline;}
+.fi{
+margin-left: 20%;
+bottom: 10%;
+
+
+}
+.film{
+	width: 20%;
+	margin-top: -7%;
+}
+.vid{
+	margin-left: 4%;
+	
+	border: 2px solid; 
+	padding: 30px;
+	
+	
+}
+.titr{
+	margin-left: 8%;
+	color: #5F6A6A;
+	text-decoration: underline;
+}
+.button{
+	border-radius: 3000px;
+	border:solid,#D82121;
+	background-color:#D82121;
+
+}

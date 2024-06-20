@@ -1,0 +1,442 @@
+.heading{color: white; position:absolute; top:380px; font-size: 220%;}
+.body{ background-image: url(../image/backgr.jpg);
+	width: -600px;
+
+
+	
+}
+.a{top:40%;
+	margin-left: 25%
+
+}
+#time 
+	{
+	text-align: center;
+	float: right;
+	width: 210px;
+	height: 68px;
+	font-size: 28px;
+	color: black;
+	
+	
+	}	
+nav.menu-nav ul li.cle a{
+	color:black;
+	text-decoration: none;
+	background-color:#B2BABB ;
+	float: left;
+	left:0;
+	padding: 15px;
+	border:solid,red ;
+	border-radius: 30px;
+}
+nav.menu-nav ul li.cle{
+	list-style-type: none;
+	display: inline-block;
+}
+nav.menu-nav ul li.cle:hover a{
+	color:#B2BABB ;
+	background: white;
+	transition: 0.5s all;
+	font-size: 30px;
+}
+
+.aya{
+	width: 100%;
+	height: 600px;
+margin-top: 20px;
+
+}
+
+
+
+.css{
+font-family: fantasy;
+font-size: 30px;
+
+}
+.insta{
+	width: 2%;
+	margin-left: 70%;
+	position:absolute;
+	top: 28px;
+	left: 60px;
+	border-radius: 30px;
+}
+
+.html{
+font-family: fantasy;
+font-size: 75px;
+line-height: 0%;
+
+
+}
+.titre{
+	color: #A9A9A9;
+	margin-left: 45%;
+	text-decoration: underline;
+	
+}
+.im{
+	width: 23%;
+	margin-left: 10%;
+}
+.book{
+	margin-left: 40%;
+    bottom: 50px;
+
+}
+.fb{
+	width: 2.5%;
+	margin-left: 70%;
+	position:absolute;
+	top: 25px;
+	left: 5px;
+	border-radius: 30px;
+}
+.tw{
+	width: 2%;
+	margin-left: 70%;
+	position:absolute;
+	top: 28px;
+	left: 110px;
+	border-radius: 30px;
+
+}
+.o{
+	padding-bottom: 50%;
+}
+
+
+
+.b{ width:55%;
+	height: 200%;
+	float: right;
+	margin-top: -450px;
+	margin-left: -4500px;
+
+}
+.vita{width:28%;
+	height: 200%;
+	float: right;
+	margin-top: -450px;
+	margin-left: -4500px;
+	padding-bottom: 50%;
+
+
+}
+.BIO{
+	margin-left: 50%;
+}
+.text{
+	position: absolute;
+	top: 135%;
+	left: 70%;
+	border: 2px solid #000000;
+	transform: translate(-50%,-50%);
+	width: 600px;
+	padding: 30px;
+	background: #fff;
+	box-sizing: border-box;
+	border-radius: 50px;
+	box-shadow: 2 150px 500px rgba(0,0,0,-2);
+}
+
+
+.famille{position: absolute;
+	top: 260%;
+	left: 70%;
+	border: 2px solid #000000;
+	transform: translate(-50%,-50%);
+	width: 600px;
+	background: #fff;
+	box-sizing: border-box;
+	border-radius: 50px;
+	box-shadow: 2 150px 500px rgba(0,0,0,-2);
+	padding: 2%;
+
+
+}
+.BIO{
+	text-decoration: underline;
+	left: 30%;
+}
+.vid{
+	width: 100%;
+	bottom: 20%;
+	
+	
+}
+.sauvemoi{
+	width: 15%;
+	border: 2px solid black;
+	box-shadow: 10px 10px 10px black;
+	border-radius: 35px;
+	cursor: pointer;
+
+}
+.etapres{
+	width: 15%;
+	margin-left: 20%;
+	margin-top: -40%;
+	border: 2px solid black;
+	box-shadow: 10px 10px 10px black;
+	border-radius: 35px;
+	cursor: pointer;
+
+
+
+}
+.l2{
+	margin-left: 20%;
+}
+.sera{width: 15%;
+	margin-left: 40%;
+	margin-top: -40%;
+	border: 2px solid black;
+	box-shadow: 10px 10px 10px black;
+	border-radius: 35px;
+	cursor: pointer;
+
+}
+.l3{margin-left: 40%;
+
+}
+.jetaime{width: 15%;
+	margin-left: 60%;
+	margin-top: -40%;
+	border: 2px solid black;
+	box-shadow: 10px 10px 10px black;
+	border-radius: 35px;
+	cursor: pointer;
+
+}
+.l4{
+	margin-left: 60%;
+}
+.chercher{width: 15%;
+	margin-left: 80%;
+	margin-top: -40%;
+	border: 2px solid black;
+	box-shadow: 10px 10px 10px black;
+	border-radius: 35px;
+	cursor: pointer;
+
+}
+.l5{
+	margin-left: 80%;
+
+}
+.sanstoi{
+	width: 14%;
+	margin-top: -35%;
+	border: 2px solid black;
+	box-shadow: 10px 10px 10px black;
+	border-radius: 35px;
+	cursor: pointer;
+}
+.l6{
+	margin-left: 2%;
+}
+.papier{
+	width: 14%;
+	margin-top: -35%;
+	margin-left: 20%;
+	border: 2px solid black;
+	box-shadow: 10px 10px 10px black;
+	border-radius: 35px;
+	cursor: pointer;
+}
+.l7{
+	margin-left: 20%;
+}
+.ange{
+	width: 14%;
+	margin-top: -35%;
+	margin-left: 40%;
+	border: 2px solid black;
+	box-shadow: 10px 10px 10px black;
+	border-radius: 35px;
+	cursor: pointer;
+}
+.l8{margin-left: 40%;
+
+}
+.apres{width: 14%;
+	margin-top: -35%;
+	margin-left: 60%;
+	border: 2px solid black;
+	box-shadow: 10px 10px 10px black;
+	border-radius: 35px;
+	cursor: pointer;
+
+}
+
+.l9{
+	margin-left: 60%;
+}
+.demain{width: 14%;
+	margin-top: -35%;
+	margin-left: 80%;
+	border: 2px solid black;
+	box-shadow: 10px 10px 10px black;
+	border-radius: 35px;
+	cursor: pointer;
+
+}
+.l10{
+	margin-left: 80%;
+}
+.central{
+	width: 14%;
+	margin-top: -35%;
+	border: 2px solid black;
+	box-shadow: 10px 10px 10px black;
+	border-radius: 35px;
+	cursor: pointer;
+}
+.present{
+	width: 14%;
+	margin-top: -35%;
+	margin-left: 20%;
+	border: 2px solid black;
+	box-shadow: 10px 10px 10px black;
+	border-radius: 35px;
+	cursor: pointer;
+}
+.l12{
+	margin-left: 20%;
+}
+.fille{
+	width: 14%;
+	margin-top: -35%;
+	margin-left: 40%;
+	border: 2px solid black;
+	box-shadow: 10px 10px 10px black;
+	border-radius: 35px;
+	cursor: pointer;
+}
+.l13{
+	margin-left: 40%;
+}
+.paris{width: 14%;
+	margin-top: -35%;
+	margin-left: 60%;
+	border: 2px solid black;
+	box-shadow: 10px 10px 10px black;
+	border-radius: 35px;
+	cursor: pointer;
+
+}
+.l14{
+	margin-left: 60%;
+}
+.lanuit{
+	width: 14%;
+	margin-top: -35%;
+	margin-left: 80%;
+	border: 2px solid black;
+	box-shadow: 10px 10px 10px black;
+	border-radius: 35px;
+	cursor: pointer;
+}
+.l15{
+	margin-left: 80%;
+}
+.vie{width: 14%;
+	margin-top: -35%;
+	border: 2px solid black;
+	box-shadow: 10px 10px 10px black;
+	border-radius: 35px;
+	cursor: pointer;
+
+}
+.roman{width: 14%;
+	margin-top: -35%;
+	margin-left: 20%;
+	border: 2px solid black;
+	box-shadow: 10px 10px 10px black;
+	border-radius: 35px;
+	cursor: pointer;
+
+}
+.l16{
+	margin-left: 20%;
+}
+.reedi{width: 14%;
+	margin-top: -35%;
+	margin-left: 40%;
+	border: 2px solid black;
+	box-shadow: 10px 10px 10px black;
+	border-radius: 35px;
+	cursor: pointer;
+
+
+}
+.l17{
+	margin-left: 40%;
+}
+.f{ 
+margin-left: 35%; 
+color:#F08080;
+text-decoration: underline;}
+.fi{
+margin-left: 20%;
+bottom: 10%;
+
+
+}
+.film{
+	width: 20%;
+	margin-top: -7%;
+}
+.vid{
+	margin-left: 4%;
+	
+	border: 2px solid; 
+	padding: 30px;
+	
+	
+}
+.titr{
+	margin-left: 8%;
+	color: #5F6A6A;
+	text-decoration: underline;
+}
+.tableau{
+	border-collapse: collapse;
+	min-width: 500px;
+	width: 1300px;
+	box-shadow: 0 5px 50px rgba(0,0,0,0.15);
+	cursor: pointer;
+	margin:100px auto;
+	border:2px solid #D82121;
+	height: 100px;
+}
+thead tr {
+	background-color: #D82121;
+	color: white;
+	text-align: left;
+}
+th, td{
+	padding: 15px 20px;
+}
+tbody tr, td,th{
+	border: 1px solid black	;
+}
+.oeuvre{
+	color:#D82121;
+	text-align: center;
+    text-decoration: underline;
+}
+.tit{
+	text-align: center;
+	text-decoration: underline;
+	color: #B2BABB;
+}
+.button{
+	border-radius: 3000px;
+	border:solid,#D82121;
+	background-color:#B2BABB;
+
+}
