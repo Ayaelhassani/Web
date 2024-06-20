@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="El hassani Aya">
+<title>Acceuil</title>
+<link rel="stylesheet" href="../style/projet.css">
+
+</head>
+
+<body class="body"> 
+  <script>
+    var myVar = setInterval(myTimer, 1000);
+
+function myTimer() {
+  var d = new Date();
+var jour = d.getDate();
+var mois = d.getMonth();
+var annee = d.getFullYear();
+var heures = d.getHours(); 
+var minutes = d.getMinutes();
+
+jour =((jour < 10) ? "0" : " ")+(jour);
+mois =((mois < 10) ? "0" : " ")+(mois+1);
+heures = ((heures < 10) ? " 0" : " ") + heures;
+minutes = ((minutes < 10) ? "0" : ":") + minutes; 
+  document.getElementById("time").innerHTML =jour+"/"+mois+"/"+annee +heures+ minutes;
+}
+  </script>
+  
+
+	<div><h1 class="css">GUILLAUME</h1></div>
+	<div><h1 class="html">MUSSO</h1></div>
+
+	<div id="time">
+					
+				</div>
+        
+	<span>
+                <a href="https://www.instagram.com/guillaume_musso/" target="_blank" ><img class="insta" src="../image/insta.jpg" alt="insta"><i class="fab fa-instagram"></i><span></span></a>
+                <a href="https://twitter.com/Guillaume_Musso" target="_blank" ><img class="tw" src="../image/tw.png" alt="tw"><i class="fab fa-twitter"></i><span class="sr-only"></span></a>
+                <a href="https://www.facebook.com/guillaume.musso.fanpage/" target="_blank" ><img class="fb" src="../image/fb.png" alt="fb"><i class="fab fa-facebook-f"></i><span class="sr-only"></span></a>
+            </span>
+            
+
+	 <nav class="menu-nav">
+     	            	<ul class="a">	
+					    	<li class="cle"><a href="index.html.html">Acceuil</a></li>
+					    	<li class="cle"><a href="page2.html">Biographie</a></li>
+					    	<li class="cle"><a href="page3.html">Oeuvres</a></li>
+					    	<li  class="cle"><a href="page4.html">Adaptations cinematographiques</a></li>
+                <li class="cle"><a href="page2.html">Inscription</a></li>
+
+				    	</ul></nav>
+				    
+	  
+	  	   <hr>
+      <div class="ou">
+      <img class="aya" src="../image/b.jpg" id="img" alt="b">
+      <p class="heading"><em>&emsp;"LE PLUS IMPORTANT N'EST PAS DE SAVOIR SI <br>ON EST VIVANT APRES D'ETRE MORT MAIS<br> D'ETRE VIVANT AVANT D'ETRE MORT."</em></p>
+      <hr>
+      <div><h1><a  class="titre">Actualité</a></h1></div>
+      <br>
+      <br>
+      <figure>
+      <img class="im" src="../image/lavieestunroman.jpeg" alt="la vie est un roman">
+      <figcaption>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;le 12 Novembre 2020: Sortie de l'edition collector<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; de 
+      la "<em>La Vie est un roman</em>"</figcaption>
+      </figure>            
+      <div>
+      <figure class="b">
+      	<img src="../image/ski.jpeg" alt="ski">
+      	<figcaption>
+      		"<em>Skidamarink</em>" réédité!
+      	</figcaption></figure>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+      <figure class="vita">
+      	<img src="../image/lavita.jpg" alt="la vita">
+      	<figcaption>
+      		Parution de l'édition italienne de <em>"la vie est un roman"</em>
+      	</figcaption>
+      </figure>
+  </div>
+     <div id="navigation">
+  
+        <div id="div_btn"> 
+        
+          <input class="button" type="button" value="Suivant" onclick="history.go(+1)">        
+        </div>
+
+      </div>	            
+                 
+      
+</div>
+</body>
+</html>

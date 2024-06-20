@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head><link rel="stylesheet" type="text/css" href="../style/page1.css">
+  <script src="../javascript/projet.js"></script>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="El hassani Aya">
+	<title>Inscription</title>
+</head>
+<body class="body">
+
+	<div><h1 class="css">GUILLAUME</h1></div>
+	<div><h1 class="html">MUSSO</h1></div>
+
+	
+	<span>
+                <a href="https://www.instagram.com/guillaume_musso/" target="_blank" ><img class="insta" src="../image/insta.jpg" alt="insta"><i class="fab fa-instagram"></i><span></span></a>
+                <a href="https://twitter.com/Guillaume_Musso" target="_blank" ><img class="tw" src="../image/tw.png" alt="tw"><i class="fab fa-twitter"></i><span class="sr-only"></span></a>
+                <a href="https://www.facebook.com/guillaume.musso.fanpage/" target="_blank" ><img class="fb" src="../image/fb.png" alt="fb"><i class="fab fa-facebook-f"></i><span class="sr-only"></span></a>
+            </span>
+	<p> <nav class="menu-nav">
+     	            	<ul class="a">	
+					    	<li class="cle"><a href="index.html.html">Acceuil</a></li>
+					    	<li class="cle"><a href="page2.html">Biographie</a></li>
+					    	<li class="cle"><a href="page3.html">Oeuvres</a></li>
+					    	<li  class="cle"><a href="page4.html">Adaptations cinematographiques</a></li>
+					    	<li class="cle"><a href="page1.html">Inscription</a></li>
+				    	</ul>
+            </nav>
+	
+      <form method="post" action="mailto:elhassaniaya02@gmail.com" enctype="text/plain" onsubmit="return Verification()">
+      <div>
+    <fieldset class="form">
+      <legend class="insc"><abbr title="Ce champ est obligatoire"></abbr><strong>Register</strong></legend>
+      <input type="radio" required name="title" id="r1" value="Mr"><label for="r1">M.</label>
+      <input type="radio" required name="title" id="r2" value="Ms">
+      <label for="r2">Mme.</label><br>
+      <div class="form-group">
+      <label for="nom">Prenom :</label>
+      <input placeholder="Prenom" type="text" name="nom" id="prenom"/><br>
+    </div>
+    <div class="form-group">
+      <label for="nom">Nom de famille :</label>
+      <input placeholder="Nom" type="text" name="nom" id="nom"/><br>
+    </div>
+    <div class="form-group">
+      <label for="number">Age:</label>
+      <input placeholder="Entrez votre age" type="number" name="pwd" id="number" min="1" max="125"/><br>
+    </div>
+    <div class="form-group">
+      <label for="nom">Adresse éléctronique :</label>
+      <input placeholder="Adresse éléctronique" type="email" name="nom" id="mail"/><br>
+    </div>
+    <div class="form-group">
+      <label for="pwd">Mot de passe : </label>
+      <input placeholder="mot de passe" type="password" name="pwd" id="pwd" /><br>
+    </div>
+    
+
+      <input type="reset" value="Vider" class="sub">                   
+                    <input type="submit" value="Envoyer" class="sub">
+                    <br>
+                    <br>
+          <div id="change_couleur">                
+                        <span>Quelle est votre couleur préférée ? </span><br><br>
+            <input type="color" id="couleurs"/> 
+            <input type="button" value="changer de couleur" onclick="modifCoul()"/>
+            </div>            
+            
+
+
+</fieldset>
+
+  
+            <div id="navigation">
+  
+        <div id="div_btn"> 
+          <input class="button" type="button" value="Précédent" onclick = "history.go(-1)">
+               
+        </div>
+
+    
+    </div>
+  </div>
+</form>
+<br>
+<br>
+ <canvas id="canvas1" width="400" height="150" style="border:1px solid #CCC">
+</canvas>
+
+<script>
+
+var canvas = document.getElementById("canvas1");
+if (canvas.getContext)
+{
+  context = canvas.getContext('2d');
+}
+
+function drawCurve()
+{
+  context.beginPath();
+  context.strokeStyle='red';
+  context.lineWidth=4;
+  context.moveTo(20,100);
+  context.quadraticCurveTo(200,10, 300, 100);
+  context.font='48px serif';
+  context.strokeText('Fin',10,50);
+  context.stroke();
+}
+
+drawCurve();
+</script>
+
+	</body>
+</html>
